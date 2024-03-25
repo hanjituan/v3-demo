@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "jsx": "preserve",
+    "strict": false,
+    "noImplicitThis": false,
+    "module": "es2015",
+    "moduleResolution": "node",
+  },
+  "include": ["src", "node_modules/microweb-pc-ts"]
+}
